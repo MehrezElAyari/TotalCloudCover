@@ -1,7 +1,11 @@
 # README.md
 
 ## Abstract
-Accurate and reliable forecasting of total cloud cover (TCC) is vital for many areas such as astronomy, energy demand and production, or agriculture. Most meteorological centres issue ensemble forecasts of TCC; however, these forecasts are often uncalibrated and exhibit worse forecast skill than ensemble forecasts of other weather variables. As TCC observations are usually reported on a discrete scale taking just nine different values called oktas, statistical calibration of TCC ensemble forecasts can be considered a classification problem with outputs given by the probabilities of the oktas. This is a classical area where machine learning methods are applied. In this [paper](https://doi.org/10.1007/s00521-020-05139-4), we investigate the performance of various post-processing techniques. This repository includes just the necessary code for the multilayer perceptron (MLP) neural networks technique.
+Accurate and reliable forecasting of total cloud cover (TCC) is vital for many areas such as astronomy, energy demand and production, or agriculture. Most meteorological centres issue ensemble forecasts of TCC; however, these forecasts are often uncalibrated and exhibit worse forecast skill than ensemble forecasts of other weather variables. As TCC observations are usually reported on a discrete scale taking just nine different values called oktas, statistical calibration of TCC ensemble forecasts can be considered a classification problem with outputs given by the probabilities of the oktas. This is a classical area where machine learning methods are applied. In this [paper](https://doi.org/10.1007/s00521-020-05139-4), we investigate the performance of various post-processing techniques. This repository includes just the necessary code for the multilayer perceptron (MLP) neural networks technique for four variants:
+- Seasonal
+- Non-seasonal
+- Including precipitation
+- Without precipitation
 
 ## Data Used
 The data used in this project includes 52 members of [ECMWF](https://www.ecmwf.int/) global ensemble forecasts:
